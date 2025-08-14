@@ -34,7 +34,7 @@ a:hover{text-decoration:underline}
   display:flex; align-items:center; justify-content:space-between; padding:.6rem 0;
 }
 .brand{display:flex; align-items:center; gap:.8rem; text-decoration:none}
-.logo{width:54px; height:54px; object-fit:contain}
+.logo{height:54px; object-fit:contain}
 .brand-text .firm{display:block; font-weight:700; color:var(--ink)}
 .brand-text .tagline{display:block; font-size:.9rem; color:var(--muted)}
 nav .nav-link{margin-left:1rem; padding:.4rem .2rem; border-bottom:2px solid transparent; font-weight:600}
@@ -68,7 +68,7 @@ nav .nav-link.active, nav .nav-link:hover{border-color:var(--gold); text-decorat
 .btn-primary:hover{filter:brightness(1.03)}
 .btn-outline{background:transparent; color:var(--green); border-color:var(--green)}
 .btn-outline:hover{background:rgba(1,95,50,.06)}
-.btn-light{background:#fff; color:var(--green); border-color:#fff}
+.btn-light{background:#fff; color:var(--green) !important; border-color:#fff}
 
 .site-footer{background:#0a120e; color:#dbe6df; margin-top:2rem}
 .footer-inner{display:grid; grid-template-columns: 1.2fr 2fr; gap:1rem; padding:1.5rem 0}
@@ -87,8 +87,8 @@ ul.clean li{margin:.4rem 0}
 
 .contact-hero{background:var(--paper); border-bottom:1px solid var(--border)}
 .contact-hero-inner{padding:1.5rem 0}
-.contact-inner{display:grid; grid-template-columns:1fr 1.3fr; gap:1rem; padding:1.5rem 0}
-.contact-card{background:var(--paper); border:1px solid var(--border); border-radius:16px; padding:1rem 1.25rem}
+.contact-inner{margin: auto; max-width: 600px;}
+
 
 .contact-form{background:var(--paper); border:1px solid var(--border); border-radius:16px; padding:1rem 1.25rem}
 .field{display:flex; flex-direction:column; margin:.65rem 0}
