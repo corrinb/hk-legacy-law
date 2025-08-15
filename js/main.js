@@ -19,6 +19,6 @@ if (form) {
       `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
     );
     // Static-site friendly: open email client
-    window.location.href = `mailto:dwjulian11@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:David@HKLegacyLaw.com?subject=${subject}&body=${body}`;
   });
 }
