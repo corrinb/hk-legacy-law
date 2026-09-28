@@ -71,8 +71,10 @@ nav .nav-link.active, nav .nav-link:hover{border-color:var(--gold); text-decorat
 .btn-light{background:#fff; color:var(--green) !important; border-color:#fff}
 
 .site-footer{background:#0a120e; color:#dbe6df; margin-top:2rem}
+main:has(> .contact-bar:last-child) + .site-footer{margin-top:0}
 .footer-inner{display:grid; grid-template-columns: 1.2fr 2fr; gap:1rem; padding:1.5rem 0}
 .site-footer a{color:#dbe6df}
+.site-footer address{font-style:normal; margin:1em 0}
 
 .profile-hero{background:var(--paper); border-bottom:1px solid var(--border)}
 .profile-hero-inner{display:grid; grid-template-columns:.9fr 1.1fr; gap:2rem; padding:2rem 0}
